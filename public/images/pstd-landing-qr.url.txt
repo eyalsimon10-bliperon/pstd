@@ -1,1 +1,1 @@
-https://pstd.vercel.app
+https://pstd-center.vercel.app
