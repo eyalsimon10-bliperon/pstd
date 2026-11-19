@@ -197,7 +197,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 14%;
+  object-position: center center;
   transform: scale(1.03);
   animation: heroDrift 18s ease-in-out infinite alternate;
 }
@@ -930,19 +930,11 @@ button {
   .hero-brand img {
     width: clamp(15rem, 20vw, 17.5rem);
   }
-
-  .hero-media img {
-    object-position: center 16%;
-  }
 }
 
 @media (max-width: 639px) {
   .hero {
     min-height: min(100svh, 780px);
-  }
-
-  .hero-media img {
-    object-position: center 10%;
   }
 
   .hero-brand {
