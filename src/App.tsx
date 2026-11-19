@@ -75,7 +75,13 @@ export default function App() {
           </div>
           <div className="hero-inner">
             <div className="hero-brand">
-              <img src="/images/pstd-logo.png" alt="PSTD" width={220} height={58} />
+              <img
+                src="/images/pstd-logo.png"
+                alt="PSTD"
+                width={1534}
+                height={401}
+                decoding="async"
+              />
               <div className="org">{t.org}</div>
             </div>
             <h1>{t.hero.headline}</h1>
